@@ -1,0 +1,25 @@
+{
+  "name": "semres-test",
+  "version": "0.0.0-development",
+  "description": "playing with semantic release",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo TEST\"",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronapelbaum/semres-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronapelbaum/semres-test/issues"
+  },
+  "homepage": "https://github.com/ronapelbaum/semres-test#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^6.3.6"
+  }
+}
